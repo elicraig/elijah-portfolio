@@ -6,8 +6,7 @@
   "homepage": "https://elicraig.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist",
-    "start": "node index.php"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Elijah Craig",
   "license": "MIT",
