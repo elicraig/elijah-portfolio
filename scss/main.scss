@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
 }
 
-//Headings
+// Headings
 h1,
 h2,
 h3 {
@@ -88,28 +88,32 @@ main {
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
+
   .job-1 {
     grid-area: job1;
   }
+
   .job-2 {
     grid-area: job2;
   }
+
   .job-3 {
     grid-area: job3;
   }
 
   .job {
-    background: lighten($primary-color, 4);
+    background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
 }
 
-//Work/Projects
+// Work/Projects
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -127,7 +131,7 @@ main {
   }
 }
 
-//Contact Page
+// Contact Page
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -153,13 +157,12 @@ main {
   }
 }
 
-//Button Styles
+// Button Styles
 .btn {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
-
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
